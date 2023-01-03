@@ -1,0 +1,36 @@
+
+.topnav {
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.4s;
+  border-radius: 7px;
+  margin: 6px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.coffee{
+  width: 500px;
+  margin: 20px;
+  clip-path: circle();
+}
+.box{
+  box-sizing: border-box;
+  display: flex;
+  width: 1200px;
+}
